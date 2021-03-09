@@ -1,0 +1,18 @@
+.covid {
+    padding: 24px;
+}
+
+.history-group {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: auto;
+}
+
+.global-stats {
+    margin-bottom: 24px;
+}
+
+.key-select {
+    width: 150px;
+}
