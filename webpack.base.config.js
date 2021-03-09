@@ -7,7 +7,7 @@ module.exports = {
     entry: './src/index.js',
     output: {
         filename: 'index.[hash].js',
-        path: path.join(__dirname, '/docs')
+        path: path.join(__dirname, '/dist')
     },
     module: {
         // 配置相应的规则
