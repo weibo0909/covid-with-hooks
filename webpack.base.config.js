@@ -6,8 +6,8 @@ module.exports = {
     // 入口文件
     entry: './src/index.js',
     output: {
-        filename: 'bundle.[hash].js',
-        path: path.join(__dirname, '/dist')
+        filename: 'index.[hash].js',
+        path: path.join(__dirname, '/docs')
     },
     module: {
         // 配置相应的规则
