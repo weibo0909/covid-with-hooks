@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import React from 'react';
 import Covid from './containers/Covid';
 import {Layout, Menu} from 'antd';
 
@@ -6,7 +6,9 @@ import './App.css';
 import 'antd/dist/antd.min.css';
 
 const App = () => {
+
     const {Header, Sider, Content} = Layout;
+
     return (
         <div className="app">
             <Layout className="app-content">
